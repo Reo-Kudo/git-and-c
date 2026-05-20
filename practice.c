@@ -2,22 +2,21 @@
 
 int main() {
 
-	printf("1+1=%d\n", 2);
-	printf("5-3=%d\n",5-3);
-	printf("3*2=%d\n",3*2);
-	printf("5/2=%d\n", 5/2);
-	printf("5%%2=%d\n", 5 % 2);
+	int number;
+	double dnumber;
 
-	printf("1.5+1.4=%d\n", 1.5+1.4);
-	printf("1.5+1.4=%f\n", 1.5+1.4);
+	number = 3;
+	dnumber = 3.14;
 
-	printf("3+3=%d\n", 3+3);
-	printf("3+3=%3d\n", 3+3);
-	printf("1.5+1.4=%.2f\n", 1.5 + 1.4);
-	printf("1.5+1.4=%2.2f\n", 1.5 + 1.4);
-	printf("1.5+1.4=%4.2f\n", 1.5 + 1.4);
-	printf("1.5+1.4=%5.2f\n", 1.5 + 1.4);
-	printf("1.5+1.4=%6.2f\n", 1.5 + 1.4);
+	printf("1:number=%d\n", number);
+	printf("1:dnumber=%f\n", dnumber);
+
+	number = number + 2;
+	printf("2:number=%d\n", number);
+
+	number = 10 / 5;
+	printf("3:number=%d\n", number*2);
+	printf("4:number=%d\n", number);
 
 	return 0;
 }
